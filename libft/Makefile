@@ -3,7 +3,7 @@ SRC = libreria
 OBJS = ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o
 CFLAGS = -Wall -Werror -Wextra -I./include
 
-$(SRC) = $(OBJS)
+$(SRC) : $(OBJS)
 	gcc $(CFLAGS) $(OBJS) -o $(SRC)
 %.o : %.c
 	gcc -c $(CFLAGS) $< -o $@
