@@ -1,4 +1,4 @@
-SRC = libreria
+SRC = libft.a
 #falta incluir los objetos .o a medida que tenga acabadas las funciones
 OBJS = ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o
 CFLAGS = -Wall -Werror -Wextra -I./include
