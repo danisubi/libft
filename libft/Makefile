@@ -1,0 +1,2 @@
+TAARGET = libreria
+OBJS =
