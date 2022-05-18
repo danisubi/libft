@@ -12,4 +12,4 @@ clean:
 	rm -f $(OBJS)
 fclean: clean
 	rm -f $(SRC)
-re: fclean SRC
+re: fclean libft.a
