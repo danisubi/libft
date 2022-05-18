@@ -12,7 +12,7 @@
 
 int	ft_isalnum(char *str)
 {
-	if (*str ++ '\0')
+	if (*str == ('\0'))
 		return (0);
 	while (*str != '\0')
 	{
